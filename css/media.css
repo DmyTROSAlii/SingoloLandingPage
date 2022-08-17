@@ -1,0 +1,118 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.carousel img{
+	max-width: 80%;
+}
+.description{
+	padding-left: 55px;
+	padding-bottom: 15px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.box_2 .col-md-4 .description::before{
+	left: 10px;
+}
+.description{
+	padding-left: 65px;
+}
+.description_head{
+	padding-top: 22px;
+}
+.portfolio_items img{
+	width: 100%
+}
+}
+@media only screen and (max-width : 640px) {
+.carousel img{
+	max-width: 100%;
+}
+.owl-prev,
+.owl-next{
+	display: none;
+}
+.menu i{
+	display: inline-block;
+}
+.menu ul{
+	display: none;
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 15px 0;
+	background-color: #2d303a;
+}
+.menu li{
+	display: block;
+	padding: 2px 0;
+}
+.menu a{
+	display: block;
+	padding: 5px 0;
+}
+.menu a:hover{
+	background-color: #323746;
+}
+.menu a::before{
+	display: none;
+}
+.footer_left{
+	display: block;
+}
+.footer_right{
+	float: none;
+}
+.footer{
+	text-align: center;
+}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.description{
+	padding-left: 55px;
+	padding-bottom: 0px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 340px) {
+.portfolio_items button{
+	margin-right: 4px;
+}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
