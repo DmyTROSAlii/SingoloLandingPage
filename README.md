@@ -54,7 +54,7 @@
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/projectOnHTML-main.git
+   git clone https://github.com/DmyTROSAlii/SingoloLandingPage.git
    ```
 2. Open the project folder in your code editor.
 3. For contact form functionality, use a local server (e.g., XAMPP, MAMP, OpenServer).
